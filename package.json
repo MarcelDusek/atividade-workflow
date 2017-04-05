@@ -1,0 +1,34 @@
+{
+  "name": "atividade1",
+  "version": "1.0.0",
+  "description": "atividade workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcelDusek/atividade-workflow.git"
+  },
+  "keywords": [
+    "atividade-workflow"
+  ],
+  "author": "Marcel Dusek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcelDusek/atividade-workflow/issues"
+  },
+  "homepage": "https://github.com/MarcelDusek/atividade-workflow#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11"
+  },
+  "dependencies": {
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8"
+  }
+}
