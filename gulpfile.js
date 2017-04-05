@@ -1,7 +1,6 @@
 var gulp = require("gulp");
 var gulpsass = require("gulp-sass");
 var gulphtml = require("gulp-htmlmin");
-var watch = require("gulp-watch");
 
 gulp.task('mini_scss',function(){
 	return gulp
