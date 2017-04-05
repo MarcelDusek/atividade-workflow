@@ -27,10 +27,5 @@
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11"
   },
-  "dependencies": {
-    "gulp-uglify": "^2.1.2",
-    "gulp-watch": "^4.3.11",
-    "gulp": "^3.9.1",
-    "gulp-util": "^3.0.8"
-  }
+  "dependencies": {}
 }
