@@ -1,18 +1,19 @@
 var gulp = require("gulp");
-var uglify = require("gulp-uglify");
+var gulpsass = require("gulp-sass");
+var gulphtml = require("gulp-htmlmin");
 var watch = require("gulp-watch");
 
 gulp.task('mini_scss',function(){
 	return gulp
 			.src('./source/scss/*.scss')
-			.pipe(uglify())
+			.pipe(gulpsass())
 			.pipe(gulp.dest('./dist/css'));
 });
 
 gulp.task('mini_html',function(){
 	return gulp
 			.src('./source/index.html')
-			.pipe(uglify())
+			.pipe(gulphtml())
 			.pipe(gulp.dest('./dist'));
 })
 
